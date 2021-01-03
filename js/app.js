@@ -1,7 +1,7 @@
 const currentYear = new Date().getFullYear();
 
 const getEndYear = () => {
-    return new Date(`June 26 ${currentYear + 1} 00:00:00`)
+    return new Date(`June 26 ${currentYear} 00:00:00`)
 }
 
 const year = document.querySelector('.year');
